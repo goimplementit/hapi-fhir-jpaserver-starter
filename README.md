@@ -140,4 +140,4 @@ The server may be configured with subscription support by enabling properties in
 
 # FHIR Profiles
 
-The server is enriched with standard FHIR profiles found at https://www.hl7.org/fhir/bp.html (Blood pressure) and https://www.hl7.org/fhir/bodyweight.html (Body weight).
+The server is enriched with standard FHIR profiles found at https://www.hl7.org/fhir/bp.html (Blood pressure) and https://www.hl7.org/fhir/bodyweight.html (Body weight) during startup.
