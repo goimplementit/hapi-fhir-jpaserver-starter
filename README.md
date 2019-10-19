@@ -137,3 +137,7 @@ The server may be configured with subscription support by enabling properties in
 * `subscription.email.enabled` - Enables email subscriptions. Note that you must also provide the connection details for a usable SMTP server.
 
 * `subscription.websocket.enabled` - Enables websocket subscriptions. With this enabled, your server will accept incoming websocket connections on the following URL (this example uses the default context path and port, you may need to tweak depending on your deployment environment): [ws://localhost:8080/hapi-fhir-jpaserver/websocket](ws://localhost:8080/hapi-fhir-jpaserver/websocket)
+
+# FHIR Profiles
+
+The server is enriched with standard FHIR profiles found at https://www.hl7.org/fhir/bp.html (Blood pressure) and https://www.hl7.org/fhir/bodyweight.html (Body weight).
