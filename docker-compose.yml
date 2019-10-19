@@ -17,5 +17,10 @@ services:
       MYSQL_ROOT_PASSWORD: 'admin'
     volumes:
       - hapi-fhir-mysql:/var/lib/mysql
+  profileupload:
+    build: ./Profiles
+    container_name: profileupload
+    depends_on:
+      - "hapi-fhir-jpaserver-start"
 volumes:
   hapi-fhir-mysql:
